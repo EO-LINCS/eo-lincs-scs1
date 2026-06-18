@@ -16,7 +16,7 @@ The recommended approach is to create a Conda environment using the provided env
 
 `conda env create -f environment.yml`
 
-The corresponding file can be found here: [environment.yml](environment.yml)
+The corresponding file can be found here: [environment.yml](../environment.yml)
 
 After creation, activate the environment:
 
@@ -31,8 +31,8 @@ ___
 ### Execute the Cube Generation Pipeline
 
 
-The main workflow is implemented in `data_extraction.ipynb`, which provides a step-by-step guide through the full cube generation process.
+The main workflow is implemented in [data_extraction.ipynb](data_extraction.ipynb), which provides a step-by-step guide through the full cube generation process.
 
 
-> **NOTE**: `sites.csv` is required for this science case which provides 
+> **NOTE**: [sites.csv](sites.csv) is required for this science case which provides 
 > the individual flux tower sites that we need to extract the data from.
