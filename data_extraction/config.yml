@@ -76,7 +76,7 @@ datasets:
   data_id: biomass-carbon/CCI_BIOMASS/CCI_BIOMASS_v6.0/CCI_BIOMASS_v6.0.json
   grid_mapping: AU-How/sen2
   custom_processing:
-    module_path: scs1_modify_dataset
+    module_path: utils
     function_name: modify_cci_biomass
 - identifier: AU-How/SAATCHI_BIOMASS
   store: store_foresteo
@@ -95,7 +95,7 @@ datasets:
   data_id: structure-demography/GAMI/GAMI_v3.1/GAMI_v3.1.json
   grid_mapping: AU-How/sen2
   custom_processing:
-    module_path: scs1_modify_dataset
+    module_path: utils
     function_name: modify_gami
 - identifier: AU-How/POTAPOV_HEIGHT
   store: store_foresteo
@@ -149,7 +149,7 @@ data_stores:
 - identifier: storage
   store_id: file
   store_params:
-    root: final
+    root: ../data
 - identifier: esa_cci
   store_id: cciodp
 - identifier: stac-pc
@@ -158,7 +158,7 @@ data_stores:
   store_id: cds
   store_params:
     endpoint_url: https://cds.climate.copernicus.eu/api
-    cds_api_key: <cds-api-key>
+    cds_api_key: cds-api-key
     normalize_names: true
 - identifier: store_foresteo
   store_id: stac
