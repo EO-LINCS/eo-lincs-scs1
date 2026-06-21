@@ -8,4 +8,8 @@ from xcube_multistore import MultiSourceDataStore
 
 def get_download():
     msds = MultiSourceDataStore("config_ForestStructure.yml")
+    msds.generate()
     return msds
+
+if __name__ == '__main__':
+    get_download()
