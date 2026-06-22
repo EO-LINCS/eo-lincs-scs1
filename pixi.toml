@@ -1,0 +1,40 @@
+[project]
+authors = ["Jacob A. Nelson <jnelson@bgc-jena.mpg.de>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "eo-lincs-scs1"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[dependencies]
+python = ">=3.10"
+ipykernel = ">=7.3.0,<8"
+mamba = "*"
+boto3 = "*"
+jupyter = "*"
+libgdal-jp2openjpeg = "*"
+pip = "*"
+pystac = "*"
+pystac-client = "*"
+xcube = ">=1.13.0"
+xcube-cci = ">=0.14"
+xcube-cds = ">=v1.4.0"
+xcube-clms = ">=0.2.2"
+xcube-stac = ">=1.3.1"
+xcube-resampling = ">=0.2.4"
+xcube-zenodo = ">=1.0.0"
+xcube-multistore = ">=0.3.2"
+xmltodict = "*"
+zarr = ">=2.11"
+pyyaml = "*"
+netcdf4 = ">=1.7.2,<2"
+rasterio = ">=1.5,<2"
+libgdal-netcdf = ">=3.10.3,<4"
+utm = ">=0.7.0,<0.8"
+pooch = ">=1.9.0,<2"
+pydataverse = ">=0.3.5,<0.4"
+omnicloudmask = ">=1.7.1,<2"
+
+[pypi-dependencies]
+gedidb = "*"
+xcube-gedidb = "*"
