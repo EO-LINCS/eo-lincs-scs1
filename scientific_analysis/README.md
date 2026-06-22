@@ -25,8 +25,7 @@ pending on conditions (Chu et al., 2021). Being persistance in situ measurments,
 continuous half-hourly records over multiple years, with the longest running sites spanning decades (Pas-
 torello et al., 2020).
 
-The case study is based on the FLUXCOM-X framework [Nelson et al., 2024](https://doi.org/10.5194/bg-21-5079-2024), which trains machine-learning models on eddy-covariance observations and predicts fluxes using remote sensing predictors. Eddy-covariance stations provide spatially integrated, temporally continuous measurements of carbon, water, and energy exchange [Baldocchi, 2019](https://doi.org/10.1111/gcb.14807), typically sampling an upwind footprint of a few hundred metres up to ~1 km depending on conditions [Chu et al., 2021](https://doi.org/10.1016/j.agrformet.2021.108350). Because they provide persistent in situ monitoring, many sites deliver near-continuous half-hourly records over multiple years, with the longest running sites spanning decades [Pas-
-torello et al., 2020](https://doi.org/10.1038/s41597-020-0534-3).
+The case study is based on the FLUXCOM-X framework [Nelson et al., 2024](https://doi.org/10.5194/bg-21-5079-2024), which trains machine-learning models on eddy-covariance observations and predicts fluxes using remote sensing predictors. Eddy-covariance stations provide spatially integrated, temporally continuous measurements of carbon, water, and energy exchange [Baldocchi, 2019](https://doi.org/10.1111/gcb.14807), typically sampling an upwind footprint of a few hundred metres up to ~1 km depending on conditions [Chu et al., 2021](https://doi.org/10.1016/j.agrformet.2021.108350). Because they provide persistent in situ monitoring, many sites deliver near-continuous half-hourly records over multiple years, with the longest running sites spanning decades [Pastorello et al., 2020](https://doi.org/10.1038/s41597-020-0534-3).
 
 Currently, the FLUXCOM-X framework is based on MODIS- and VIIRS-based reflectance and land-surface temperature, together with meteorological inputs measured at each tower and plant functional type classifications, as predictors to the model. The inclusion of remote sensing data has been shown to be an important predictor in FLUXCOM-X, providing key information on ecosystem states not reflected in the immediate meteorology, such as phenology or stress conditions [Kraft et al., 2025](https://doi.org/10.5194/bg-22-3965-2025). Linking these in situ observations with EO data is therefore essential for scaling local ecosystem behaviour to regional and global flux estimates.
 
@@ -73,9 +72,9 @@ In all cases, EO products are extracted as spatial cut-outs covering a **2 km ra
 
 **Above-ground biomass:** We used above-ground biomass from [Saatchi et al.](https://doi.org/10.1073/pnas.1019576108) and ESA CCI Biomass v5.0. For the initial assessment, ESA CCI biomass was averaged across available years to provide a stable structural constraint.
 
-**Canopy height:** Mean canopy height was taken from the global canopy height product of [Potapov et al.](https://doi.org10.1016/j.rse.2020.112165).
+**Canopy height:** Mean canopy height was taken from the global canopy height product of [Potapov et al.](https://doi.org/10.1016/j.rse.2020.112165).
 
-**Tree cover:** Percent tree cover for the year 2000 was taken from [Hansen et al.](https://doi.org10.1126/science.1244693).
+**Tree cover:** Percent tree cover for the year 2000 was taken from [Hansen et al.](https://doi.org/10.1126/science.1244693).
 
 **Chapman–Richards parameters:** We included Chapman–Richards growth-curve parameters and derived metrics describing secondary-forest above-ground carbon accumulation, with emphasis on the maximum annual accumulation rate and the asymptotic maximum above-ground carbon stock.
 
