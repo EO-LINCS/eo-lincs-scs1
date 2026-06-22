@@ -1,0 +1,40 @@
+datasets:
+- identifier: DE-RuS/sen2
+  store: stac-pc
+  data_id: sentinel-2-l2a
+  open_params:
+    time_range:
+    - '2018-01-01'
+    - '2018-12-31'
+    point:
+    - 6.4471
+    - 50.8659
+    bbox_width: 4000
+    spatial_res: 10
+    asset_names:
+    - B01
+    - B02
+    - B03
+    - B04
+    - B05
+    - B06
+    - B07
+    - B08
+    - B8A
+    - B09
+    - B11
+    - B12
+    - SCL
+data_stores:
+- identifier: storage
+  store_id: file
+  store_params:
+    root: ../data
+- identifier: stac-pc
+  store_id: stac-pc-ardc
+- identifier: cds
+  store_id: cds
+  store_params:
+    endpoint_url: https://cds.climate.copernicus.eu/api
+    cds_api_key: cds-api-key
+    normalize_names: true
