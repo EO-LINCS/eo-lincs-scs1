@@ -1,0 +1,32 @@
+datasets:
+- identifier: US-SRG/sen3_syn
+  store: stac-pc
+  data_id: sentinel-3-synergy-syn-l2-netcdf
+  open_params:
+    asset_names:
+    - syn-oa04-reflectance
+    - syn-oa08-reflectance
+    - syn-oa10-reflectance
+    - syn-oa11-reflectance
+    - syn-oa12-reflectance
+    - syn-oa17-reflectance
+    time_range:
+    - '2020-01-01'
+    - '2022-12-31'
+    bbox:
+    - 513811.75626625685
+    - 3514605.580261756
+    - 518811.75626625685
+    - 3519605.580261756
+    spatial_res: 200
+    crs: epsg:32612
+    add_error_bands: false
+data_stores:
+- identifier: storage
+  store_id: file
+  store_params:
+    root: ./data
+- &id001
+  identifier: stac-pc
+  store_id: stac-pc-ardc
+- *id001
