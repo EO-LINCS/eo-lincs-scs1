@@ -3,12 +3,28 @@ channels:
   - conda-forge
 dependencies:
   - python >=3.10
+  - ipykernel >=7.3.0,<8
+  - mamba
+  - boto3
   - jupyter
-  - utm
-  - xcube-multistore >=0.3.2
-  - xcube-stac >=1.3.1
-  - xcube-cds >=1.4.0
+  - libgdal-jp2openjpeg
+  - pystac
+  - pystac-client
+  - xcube >=1.13.0
   - xcube-cci >=0.14
+  - xcube-cds >=v1.4.0
+  - xcube-clms >=0.2.2
+  - xcube-stac >=1.3.1
+  - xcube-resampling >=0.2.4
+  - xcube-zenodo >=1.0.0
+  - xcube-multistore >=0.3.2
+  - zarr >=2.11
+  - pyyaml
+  - netcdf4 >=1.7.2,<2
+  - rasterio >=1.5,<2
+  - libgdal-netcdf >=3.10.3,<4
+  - utm >=0.7.0,<0.8
+  - omnicloudmask >=1.7.1,<2
   - pip
   - pip:
       - xcube-gedidb

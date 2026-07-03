@@ -53,7 +53,7 @@ The workflow can be run in any order and is structured as follows:
 2. `Sentinel2.ipynb` A short demonstration of additional Sentinel-2 Cloud Masking.
 3. `Sentinel3.ipynb` An example of Sentinel-3 temporal variability at a dryland site. *Note: This script is still in development*
 
-As the example data extraction pipeline in `data_extraction/data_extraction.ipynb` is minimizeds to only one site and a short timeperiod, expanded data extraction configurations are provided, along with an associated download script:
+As the example data extraction pipeline in `data_extraction/data_extraction.ipy nb` is minimizeds to only one site and a short timeperiod, expanded data extraction configurations are provided, along with an associated download script:
 
 | example notebook | config file | download script | additional utilities |
 |----|----|----|----|
